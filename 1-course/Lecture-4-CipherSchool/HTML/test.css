@@ -1,0 +1,40 @@
+p,q{
+    font-size: medium;
+}
+#topic{
+    color: blue;
+}
+.q{
+    color:aqua ;
+}
+*{
+    text-align: center;
+}
+ul li{
+    text-align: left;
+}
+dl dt {
+    text-align: left;
+}
+dl dd{
+    text-align: left
+}
+ul>li{
+   color: blue;
+}
+ p+h2{
+    color: yellowgreen
+ }
+ div~h2{
+    color: aqua;
+    text-align: left;
+ }
+ h2:hover{
+   color: red;
+ }
+ h1::first-letter{
+    color: red;
+ }
+ a[target]{
+    color: crimson;
+ }
